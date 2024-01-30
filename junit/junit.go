@@ -118,6 +118,7 @@ type Testcase struct {
 	// optional attributes
 	Time   string `xml:"time,attr,omitempty"` // duration in seconds
 	Status string `xml:"status,attr,omitempty"`
+	File   string `xml:"file,attr,omitempty"`
 
 	Skipped   *Result `xml:"skipped,omitempty"`
 	Error     *Result `xml:"error,omitempty"`
